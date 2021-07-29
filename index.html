@@ -21,8 +21,37 @@
 
 <body>
     <!-- Start Header Section -->
-    <header class="bg-honda-header container-fluid">
-        <div class="container py-5">
+    <header class="bg-honda-color container-fluid" id="home">
+        <!-- navbar  -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-honda-color fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 me-5 mb-lg-0">
+                        <li class="nav-item me-5">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link active" href="#shop">Shop</a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link active" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link active" href="#contact">Contact</a>
+                        </li>
+
+                    </ul>
+                    <button class="btn btn-honda">Login</button>
+                </div>
+            </div>
+        </nav>
+        <!-- main header section  -->
+        <div class="container py-5 mt-5">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-12 d-flex align-items-center justify-content-center">
                     <div>
@@ -71,7 +100,7 @@
     </header>
     <main>
         <!-- Fetured Bikes section  -->
-        <section class="container my-5">
+        <section class="container my-5" id="shop">
             <div class="text-center">
                 <h1>Fetured Bikes 2021</h1>
                 <p class="text-danger">Best bike collection</p>
@@ -89,7 +118,7 @@
             </div>
         </section>
         <!-- Latest News Section  -->
-        <section class="container my-5">
+        <section class="container py-4">
             <h1 class="text-center my-5">Latest News</h1>
             <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
                 <div class="col">
@@ -134,8 +163,8 @@
             </div>
         </section>
         <!-- Clients section  -->
-        <section class="container my-5">
-            <h1 class="text-center my-5">Happy <span class="text-color">Clients says</span></h1>
+        <section class="container py-5">
+            <h1 class="text-center mb-5">Happy <span class="text-color">Clients says</span></h1>
             <div>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
                     <div class="col">
@@ -199,7 +228,7 @@
             </div>
         </section>
         <!-- Questions Section  -->
-        <section class="container my-5">
+        <section class="container py-5">
             <h1 class="text-center my-4">Frequently Asked <span class="text-color">Questions</span></h1>
             <div class="row">
                 <div class="col-lg-6 text-center mt-4">
@@ -281,7 +310,7 @@
             </div>
         </section>
         <!-- about us section  -->
-        <section class=" about-us bg-light bg-gradient my-5">
+        <section class=" about-us bg-light bg-gradient my-5" id="about">
             <h2 class="text-center my-5 p-4 fw-bold">About Us</h2>
             <div class="container">
                 <div class="row pb-5">
@@ -296,9 +325,9 @@
                         <button class="btn btn-honda text-white my-3">Read More</button>
                         <br>
                         <span class="icon-honda">
-                            <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
-                            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
-                            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
                         </span>
                     </div>
                     <div class="col-lg-6 col-md-6 col-12 text-center">
@@ -308,9 +337,26 @@
                 </div>
             </div>
         </section>
-        <!-- extra Subscrib section  -->
-        <section class="container my-5">
-            <div class="card">
+        <!-- extra contact section  -->
+        <section class="bg-honda-color mt-5" id="contact">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-lg-7 col-md-6 col-12 text-center">
+                        <h2 class="fw-bold text-white">Subscrib And Let's View <span class="text-color">Our
+                                Honda
+                                Shop</span></h2>
+                    </div>
+                    <div class="col-lg-5 col-md-6 col-12 text-center">
+                        <a href="https://www.bdhonda.com/" target="_blank">
+                            <button class="btn btn-honda text-white fw-bold">View Honda Shop</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Subscrib section  -->
+        <section class="container py-5 mb-5">
+            <div class="card ">
                 <h2 class="card-header text-center fw-bold">Subscrib Now</h2>
                 <div class="card-body">
                     <label for="">Name</label>
@@ -323,8 +369,26 @@
             </div>
         </section>
     </main>
-    <footer>
-
+    <!-- start-footer section  -->
+    <footer class="bg-honda-footer">
+        <div class="container">
+            <div class="row text-white py-5">
+                <div class="col-lg-7 col-md-7 col-12 pb-3 fw-light ">
+                    <P>Download Now License</P>
+                    <P>About Features Pricing Careers Help Privacy Policy</P>
+                    <P>© 2020 bike. All rights reserved</P>
+                </div>
+                <div class="col-lg-5 col-md-5 col-12 pb-3 px-5 text-end">
+                    <h5 class="text-muted">Get the App</h5>
+                    <div>
+                        <img class="img-fluid w-25" src="images/app-store.png" alt="">
+                    </div>
+                    <div>
+                        <img class="img-fluid w-25" src="images/google-play.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
     <!-- Bootstrap script -->

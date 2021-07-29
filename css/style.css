@@ -1,5 +1,5 @@
 
-.bg-honda-header{
+.bg-honda-color{
     background: #264653;
 }
 h1{
@@ -29,4 +29,10 @@ h1{
     font-size: 28px;
     color: #181515be;
     margin-right: 10px;
+}
+.bg-honda-footer{
+    background: #0B0D17;
+}
+.bg-honda-footer p{
+    word-spacing: 10px;
 }
