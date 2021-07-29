@@ -25,3 +25,12 @@ h1{
     padding: 10px 30px;
     background: #E76F51;
 }
+.about-us{
+    background-color: aqua;
+    height: 500px;
+}
+.icon-honda a{
+    font-size: 28px;
+    color: #181515be;
+    margin-right: 10px;
+}
